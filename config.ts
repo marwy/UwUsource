@@ -7,7 +7,7 @@ export const window = {
     resizable: false,
     maximizable: false,
     fullscreenable: false,
-    title: 'UwUcraft Launcher',
+    title: 'UwUcraft launcher',
 };
 
 export const api = {

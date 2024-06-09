@@ -20,7 +20,7 @@ export const titlebarTitle = atom({
     key: 'titlebar.title',
     default: {
         show: true,
-        text: 'AuroraLauncher',
+        text: 'UwUcraft',
     },
 });
 
