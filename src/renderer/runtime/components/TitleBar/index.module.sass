@@ -1,0 +1,34 @@
+.titlebar,
+.titlebar > div,
+.user
+    display: flex
+    align-items: center
+
+.titlebar
+    padding: 8px
+    -webkit-app-region: drag
+    justify-content: space-between
+    background: var(--background-color)
+    box-shadow: var(--default-shadow)
+    button
+        -webkit-app-region: no-drag
+        cursor: pointer
+        height: 24px
+        filter: drop-shadow(var(--default-shadow))
+.back
+    margin-right: 13px
+    &:hover path
+        fill: #ddd
+.hide
+    &:hover path
+        fill: #2f80ed
+.close
+    margin-left: 7px
+    &:hover path
+        fill: #eb5757
+.user
+    margin-right: 27px
+.username
+    margin-left: 5px
+.text
+    margin-top: 2px
