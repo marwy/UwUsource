@@ -84,14 +84,14 @@
         }
     },
     "build": {
-        "appId": "ru.aurora.launcher",
-        "productName": "Aurora Launcher",
+        "appId": "ru.uwucraft.launcher",
+        "productName": "UwUcraft laucnher",
         "publish": [
             {
                 "provider": "github",
                 "releaseType": "release",
-                "owner": "AuroraTeam",
-                "repo": "Launcher"
+                "owner": "quzzQueth",
+                "repo": "UwUcraftLauncher"
             }
         ],
         "directories": {
